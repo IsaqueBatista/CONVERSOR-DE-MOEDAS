@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Moedas|DEVCLUB</title>
+</head>
+
+<body>
+    <div id="container-master">
+
+        <header>
+            <h1>Money Converter</h1>
+        </header>
+
+        <main id="main">
+            <label>
+                <p class="bottom-value">Convert <b>from</b></p>
+                <select id="currency-select-from">
+                    <option>R$ Real Brasileiro</option>
+                </select>
+            </label>
+
+            <label>
+                <p class="bottom-value">Convert <b>to</b></p>
+                <select id="currency-select-to">
+                    <option>US$ Dólar Americano</option>
+                    <option>€ Euro</option>  
+                    <option>₿ Bitcoin</option>                  
+                </select>
+            </label>
+
+            <label>
+                <p class="bottom-value"><b>Value</b></p>
+                <input id="input-real" placeholder="R$ 10.000,00">
+            </label>
+
+            <button id="convert-button" type="button">Convert</button>
+
+            <section>
+                <div>
+                    <img id="currency-img-from" src="assets/brasil 2.png" alt="moeda-real">
+                    <p id="currency-name-from">Real</p>
+                    <p class="currency-value-from" id="currency-value-text-from">R$ 0,00</p>
+                </div>
+
+                <img class="div-seta" src="assets/seta.png" alt="seta">
+
+                <div>
+                    <img id="currency-img-to" src="assets/estados-unidos (1) 1.png" alt="moeda-dolar">
+                    <p id="currency-name-to">Dollar</p>
+                    <p class="currency-value-to" id="currency-value-text-to">US$ 0,00</p>
+                </div>
+            </section>
+
+        </main>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

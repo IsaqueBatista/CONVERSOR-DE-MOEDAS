@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    color: white;
+    background-color: #17145a;
+}
+
+#container-master {
+    width: 375px;
+    margin: auto;
+    margin-bottom: 70px;
+    background-color: #14142B;
+    box-shadow: 0px -14px 50px 5px #3a24ff;
+    border-radius: 0 0 4px 4px ;
+}
+
+header {
+    width: 375px;
+    height: 66px;
+    margin-top: 70px;
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+    background: linear-gradient(to right, #F08080, #9370DB, #4169E1);
+}
+
+#main {
+    padding: 24px 24px 40px;
+}
+
+h1{    
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 19px;
+}
+select{
+    background-color: #554B6B;
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+input{
+    background-color: #554B6B;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.bottom-value{
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+
+::placeholder{
+    color: white;
+}
+
+option{
+    border-radius: 2px;
+    background-color: #453d56;   
+    outline: none;
+}
+
+button{
+    margin: 10px auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 13px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 15.1px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    background-color: #4169e12a;
+    box-shadow: inset 0px 0px 10px 0px #2e1bdf;
+}
+
+button:hover{
+    box-shadow: inset 0px 0px 5px 0px #2e1bdf;
+}
+
+button:active{
+    font-size: 15px;
+    box-shadow: inset 0 0 1em #2e1bdf ;
+}
+
+section{
+    background-color: #2E2E49;
+    text-align: center;
+    padding: 20px;
+    border-radius: 4px;
+    line-height: 22px;
+}
+
+.div-seta{
+    margin: 15px auto 15px
+}
+
+.currency-value-from {
+    font-weight: bold;
+    font-size: 20px;
+}
+.currency-value-to {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
