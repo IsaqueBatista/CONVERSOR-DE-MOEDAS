@@ -3,7 +3,7 @@
 <br>
 
 > Result
-<img src="./assets/result.png"> 
+<img src="./assets/Result.png"> 
 
 <br>
 <br>
